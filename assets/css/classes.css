@@ -214,3 +214,9 @@
   filter: grayscale(0%);
   
 }
+
+.rights
+{
+  color: white;
+  font-size: 15px;
+}

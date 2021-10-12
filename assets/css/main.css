@@ -35,3 +35,12 @@ p, h1, h2, h3, h4, h5, h6{
   
   margin-bottom: 30px;
 }
+
+.footer
+{
+  min-height: 40px;
+  background-color: #4c94c4ed;
+  background-color: #4473a0;
+  margin-top: 35px;
+  height: 80px;
+}
