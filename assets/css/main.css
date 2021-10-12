@@ -3,4 +3,16 @@
   min-height: 400px;
   background-color: #e8e8e8;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#whyus
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  font-family: 'century gothic';
 }
