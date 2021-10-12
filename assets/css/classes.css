@@ -1,0 +1,45 @@
+/* Navbar clasess */
+
+.bg-light {
+  background: #f8f9fa00!important;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+.targemHome-navbarLangIcon
+{
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 3px;
+  color: rgb(59, 59, 59);
+}
+
+.targemHome-navbarLangIconToggle
+{
+  background-color: #ff000000;
+  border: none;
+}
+.targemHome-navbarLangIconToggle:hover
+{
+  background-color: #ff000000;
+  border: none;
+}
+.targemHome-navbarLangIconToggle::after
+{
+  color: rgb(59, 59, 59);
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+/* Main section style */
+.targethome-mainSection{
+  width: 100%;
+  background-image: url(https://ahmedsaidgp7.github.io/ThePointClubWebsite/assets/images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  min-height:600px;
+}
