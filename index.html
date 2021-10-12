@@ -47,7 +47,7 @@
     </head>
     <body>
         <!--Start Navbar-->
-        <nav class="navbar fixied-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">Targem</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,12 +62,12 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Services
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Service 1</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Services 2</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Services 3</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -94,14 +94,40 @@
         <!--End of Navbar-->
 
         <!--Start of the main section-->
-        <main id="home" class="targethome-mainSection">
+        <main id="home" class="d-flex align-items-center justify-content-center targemHome-mainSection">
             <div>
-                <h4>
-                    TEST
+                <h4 class="targemHome-mainh4">
+                    New Generation Translate Services.
                 </h4>
+                <p class="targemHome-mainp">
+                    The largest service in the Middle East for translating research papers, reviewing papers and translating documentaries and videos in a professional manner.
+                </p>
+                <a href="#knowmore">
+                <img class="targemHome-Arrow" src="assets/images/banner-arrow.png" alt="">
+                </a>
             </div>
         </main>
         <!--End of the main section-->
 
+        <!--Start summry section-->
+        <section id="knowmore" class="">
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <h2 class="targemHome-knowmoretitle"> <span class="taremHome-underline">Some</span> Text Here </h2>
+                    <p class="targemHome-knowP">
+                      Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
+                    </p>
+                    <a class="targemHome-Getstarted" href="#">
+                      Get Started!
+                    </a>
+                  </div>
+                  <div class="col d-flex justify-content-center">
+                    <img class="targemHome-knowmoreill" alt="papers" src="assets/images/papers.svg">
+                  </div>
+                </div>
+            </div>    
+        </section>
+        <!--End summry section-->
     </body>
 </html>

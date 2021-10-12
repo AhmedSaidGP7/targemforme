@@ -1,7 +1,7 @@
 /* Navbar clasess */
 
 .bg-light {
-  background: #f8f9fa00!important;
+  background: white!important;
   box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
 }
 .targemHome-navbarLangIcon
@@ -33,13 +33,104 @@
 
 
 /* Main section style */
-.targethome-mainSection{
+.targemHome-mainSection{
   width: 100%;
-  background-image: url(https://ahmedsaidgp7.github.io/ThePointClubWebsite/assets/images/bg.jpg);
+  background-image: url(../images/bg.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: table;
   min-height:600px;
+}
+
+.targemHome-mainh4
+{
+  text-align: left;
+  color: white;
+  max-width: 417px;
+  line-height: 1.5;
+  font-size: 2.2em;
+  font-family: "century gothic";
+  margin-top: 25px;
+  font-weight: 800;
+}
+
+.targemHome-mainp
+{
+  text-align: left;
+  color: white;
+  max-width: 480px;
+  line-height: 2;
+  font-size: 1.2em;
+  margin-top: 15px;
+  font-family: "century gothic";
+}
+
+.targemHome-Arrow
+{
+  display: table;
+  margin: 75px auto 0px auto;
+}
+
+/* know more style */
+.targemHome-knowmoreill
+{
+  width: 350px;
+  max-width: 90%;
+}
+
+.targemHome-knowmoretitle{
+  font-size: 52px;
+  max-width: 300px;
+  background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "century gothic";
+  
+}
+
+/* Underline style if needed
+.taremHome-underline
+{
+  border-bottom: 4px #ea0e4f solid;
+}
+*/
+
+.targemHome-knowP
+{
+
+  color: #5c8ecd;
+  line-height: 2;
+  max-width: 651px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "century gothic";
+  margin-top: 25px;
+}
+
+.targemHome-Getstarted
+{
+  text-decoration: none;
+  font-size: 33px;
+  font-family: 'century gothic';
+  text-align: center;
+  font-size: 26px;
+  padding: 20px;
+  border: 2px  #415d87 solid;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  display: table;
+  margin: 45px auto 0px auto;
+
+ 
+}
+
+.targemHome-Getstarted:hover
+{
+  color: white;
+  background-color: #649ee0;
+  background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);
+  border:2px #e8e8e8 solid;
+
 }
