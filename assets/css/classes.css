@@ -79,6 +79,7 @@
 {
   width: 350px;
   max-width: 90%;
+  margin-top: 40px;
 }
 
 .targemHome-knowmoretitle{
@@ -155,4 +156,61 @@
 
 #whyus h5{
   font-weight: bold;
+}
+
+#whyus .targemHome-knowmoretitle
+{
+  max-width: 600px;
+  margin-bottom: 55px;
+}
+
+/* Claim and get started */
+
+#claimandgetstarted .targemHome-knowmoretitle
+{
+  max-width: 90%;
+  margin-bottom: 45px;
+}
+
+.targemHome-claimImg
+{
+  max-width: 95%;
+  margin-top: 25px;
+}
+.targemHome-ClaimHeads
+{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#claimandgetstarted .targemHome-knowP
+{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #7f7f7f;
+}
+
+.imgsiteslike
+{
+  width: 200px;
+  margin: auto;
+  display: table;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+
+.imgsiteslike1
+{
+  width: 200px;
+  margin: auto;
+  display: table;
+  filter: grayscale(100%);
+  padding-top: 65px;
+  transition-duration: 0.5s;
+}
+
+.imgsiteslike:hover , .imgsiteslike1:hover
+{
+  filter: grayscale(0%);
+  
 }

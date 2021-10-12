@@ -2,7 +2,7 @@
 {
   min-height: 400px;
   background-color: #e8e8e8;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 
@@ -15,4 +15,23 @@
 
 p, h1, h2, h3, h4, h5, h6{
   font-family: 'century gothic';
+}
+#claimandgetstarted
+{
+  min-height: 400px;
+  background-color: #e8e8e8;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#partners .targemHome-knowmoretitle
+{
+  max-width: 400px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+#whyus .card {
+  
+  margin-bottom: 30px;
 }
