@@ -49,3 +49,16 @@ p, h1, h2, h3, h4, h5, h6, span{
 {
   color: white;
 }
+
+#transSer
+{
+  margin-bottom: 50px;
+  
+}
+
+.lineborder
+{
+  border-bottom: 1px solid #eaedef;
+  max-width: 500px;
+  margin: 50px auto;
+}

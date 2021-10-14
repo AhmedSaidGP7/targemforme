@@ -236,3 +236,23 @@ footer .fab
 {
   margin-top: 91px;
 }
+
+/* Translation Service page */
+
+.trans-mainSection
+{
+  width: 100%;
+  background-image: url(../images/bg.jpg);
+  background-attachment: fixed;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  min-height:250px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+#transSer .targemHome-knowmoretitle
+{
+}
