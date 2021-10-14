@@ -13,7 +13,7 @@
 
 }
 
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6, span{
   font-family: 'century gothic';
 }
 #claimandgetstarted
@@ -43,4 +43,9 @@ p, h1, h2, h3, h4, h5, h6{
   background-color: #4473a0;
   margin-top: 35px;
   height: 80px;
+}
+
+.whiteColor
+{
+  color: white;
 }
