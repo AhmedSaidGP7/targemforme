@@ -261,9 +261,14 @@ footer .fab
 {
   width: 100px;
   height: 100px;
-  background-color: c6c6c6;
-  position: absolute;
+  background-color: #3bb0e3;
+  position: relative;
   border-radius: 50%;
-  left: 100px;
-  bottom: 150px;
+  bottom: 45px;
+}
+
+.priceIcon
+{
+  color: white;
+  font-size: 45px;
 }

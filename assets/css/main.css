@@ -65,5 +65,12 @@ p, h1, h2, h3, h4, h5, h6, span{
 
 .kindoftrans .card-body
 {
-  padding-top: 100px;
+  position: relative;
+  bottom: 50px;
+}
+
+.kindoftrans .card
+{
+  height: 270px;
+  margin-top: 60px;
 }
