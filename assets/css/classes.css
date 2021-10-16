@@ -272,3 +272,26 @@ footer .fab
   color: white;
   font-size: 45px;
 }
+
+#contactus .targemHome-Getstarted {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+textarea.form-control{
+  min-height: 200px !important;
+}
+
+.contactInfoPart
+{
+  background-color: #466ee8;
+  background:  -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);;
+}
+
+.ContactUsTitle
+{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
