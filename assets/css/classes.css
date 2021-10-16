@@ -347,3 +347,9 @@ textarea.form-control{
     font-family: "century gothic";
     margin-top: 25px;
 }
+
+.svgcolor
+{
+  color: white;
+  width: 4.25em;
+}
