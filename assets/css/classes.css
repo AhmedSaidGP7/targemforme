@@ -248,13 +248,9 @@ footer .fab
   background-repeat: no-repeat;
   background-size: cover;
   display: table;
-  min-height:250px;
+  /*min-height:250px;*/
   padding: 30px;
   margin-bottom: 50px;
-}
-
-#transSer .targemHome-knowmoretitle
-{
 }
 
 .circle
@@ -277,6 +273,16 @@ footer .fab
   font-size: 16px;
   font-weight: bold;
   padding: 5px 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+#contactus .targemHome-Getstarted:hover
+{
+  color: white;
+  background-color: #649ee0;
+  background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);
+  border:2px #e8e8e8 solid;
+
 }
 
 textarea.form-control{
@@ -287,11 +293,57 @@ textarea.form-control{
 {
   background-color: #466ee8;
   background:  -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);;
+
 }
 
 .ContactUsTitle
 {
   font-size: 40px;
   text-align: center;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
+  font-weight: bold;
+}
+
+.contactInfoPart p
+{
+  text-align: left;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+#contactus form
+{
+  padding: 10px;
+}
+
+.serviceDetials
+{
+  text-align: left;
+  line-height: 2;
+}
+.card-title
+{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.visionAndMissionill
+{
+  max-width: 350px;
+}
+
+.aboutMain
+{
+  max-width: 100%;
+}
+
+.whoareweee
+{
+    color: #5c8ecd;
+    line-height: 2;
+    max-width: 80%;
+    text-align: left;
+    font-size: 20px;
+    font-family: "century gothic";
+    margin-top: 25px;
 }
