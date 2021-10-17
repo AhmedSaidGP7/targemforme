@@ -74,3 +74,28 @@ p, h1, h2, h3, h4, h5, h6, span{
   height: 330px;
   margin-top: 60px;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+  bottom: 30px;
+  left: 35px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  transition: all 0.2s ease;
+}
+.float:hover
+{
+  color: white;
+  width: 62px;
+  height: 62px;
+}
+.my-float{
+	margin-top:10px;
+}
