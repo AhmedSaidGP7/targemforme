@@ -16,6 +16,11 @@
 p, h1, h2, h3, h4, h5, h6, span{
   font-family: 'century gothic';
 }
+
+h2, h3, h4, h5, h6
+{
+  font-weight: bold;
+}
 #claimandgetstarted
 {
   min-height: 400px;
@@ -111,3 +116,50 @@ p, h1, h2, h3, h4, h5, h6, span{
   bottom: 12.25rem;
 }
 
+#scholarsSection .card {
+  height: 370px;
+  margin-top: 60px;
+}
+
+.arabize
+{
+  direction: rtl;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+
+}
+
+.arabizenavbar
+{
+  margin-left: 0px !important;
+}
+
+
+/* Style for Smartphones and Tablets */
+
+@media only screen and (max-width: 991px) {
+ 
+  .arabizenavbar
+  {
+    margin-top: 20px;
+    margin-top: 10px;
+  }
+  
+  .navbar-nav
+  {
+    text-align: center !important;
+  }
+  
+
+}
+
+/* Arabic edit */
+
+.moreDitals1ara
+{
+  margin-top: 100px;
+}
+
+.moreDitals2ara {
+  margin-top: 75px;
+}
