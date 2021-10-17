@@ -105,3 +105,8 @@ p, h1, h2, h3, h4, h5, h6, span{
   max-height: 500px;
   min-width: auto;
 }
+
+.carousel-caption
+{
+  bottom: 12.25rem;
+}
