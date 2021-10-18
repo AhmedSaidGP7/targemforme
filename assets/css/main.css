@@ -163,3 +163,8 @@ h2, h3, h4, h5, h6
 .moreDitals2ara {
   margin-top: 75px;
 }
+
+.eng
+{
+  direction: ltr;
+}
