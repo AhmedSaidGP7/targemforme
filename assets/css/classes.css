@@ -353,3 +353,11 @@ textarea.form-control{
   color: white;
   width: 4.25em;
 }
+
+.platformbold
+{
+  font-weight: bolder;
+  direction: rtl;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+}
