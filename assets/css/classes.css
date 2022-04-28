@@ -77,13 +77,13 @@
 /* know more style */
 .targemHome-knowmoreill
 {
-  width: 350px;
+  width: 100%;
   max-width: 90%;
   margin-top: 40px;
 }
 
 .targemHome-knowmoretitle{
-  font-size: 52px;
+  font-size: 40px;
   max-width: 300px;
   background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);
   -webkit-background-clip: text;
@@ -229,12 +229,12 @@ footer .fab
 
 .moreDitals1
 {
-  margin-top: 91px;
+  margin-top: 25px;
 }
 
 .moreDitals2
 {
-  margin-top: 91px;
+  margin-top: 70px;
 }
 
 /* Translation Service page */
