@@ -156,6 +156,21 @@ h2, h3, h4, h5, h6
 
 }
 
+@media only screen and (max-width:425px)
+{
+  .carousel-caption
+  {
+    top: 45px !important;
+    font-size: 0px;
+    font-weight: 100 !important;
+  }
+
+  .carousel-item
+  {
+    max-height: 229.5px;
+
+  }
+}
 /* Arabic edit */
 
 .moreDitals1ara
