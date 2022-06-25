@@ -87,7 +87,7 @@
   max-width: 300px;
   background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #4a77b9; 
   font-family: "century gothic";
   
 }
